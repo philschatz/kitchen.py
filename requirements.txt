@@ -4,5 +4,8 @@
 #
 #    pip-compile --output-file=requirements.txt
 #
+cssselect2==0.3.0         # via -r requirements.in
 cssselect==1.1.0          # via -r requirements.in
-lxml==4.5.1               # via -r requirements.in
+lxml==4.6.2               # via -r requirements.in
+tinycss2==1.1.0           # via cssselect2
+webencodings==0.5.1       # via cssselect2, tinycss2
